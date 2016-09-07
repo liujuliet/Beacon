@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		01F542DA54F860CC273326CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8686CCC3608E8F27376F8D53 /* libPods.a */; };
+		533245791D80B76F003E83E6 /* orange-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 533245781D80B76F003E83E6 /* orange-o.png */; };
 		537520B81B54CBF6008EB03A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537520B61B54CBF6008EB03A /* MainViewController.swift */; };
 		537520B91B54CBF6008EB03A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 537520B71B54CBF6008EB03A /* MainViewController.xib */; };
-		537A8CB11B5C39EE00262F59 /* orange-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 537A8CB01B5C39EE00262F59 /* orange-o.png */; };
 		53A348941B54C4CF0089DE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A348931B54C4CF0089DE4B /* AppDelegate.swift */; };
 		53A3489B1B54C4CF0089DE4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A3489A1B54C4CF0089DE4B /* Images.xcassets */; };
 		53A348AA1B54C4CF0089DE4B /* BeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A348A91B54C4CF0089DE4B /* BeaconTests.swift */; };
@@ -28,10 +28,10 @@
 
 /* Begin PBXFileReference section */
 		004AEE627B5AC293AB9BCE6C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		533245781D80B76F003E83E6 /* orange-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-o.png"; sourceTree = "<group>"; };
 		537520B51B54C952008EB03A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		537520B61B54CBF6008EB03A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		537520B71B54CBF6008EB03A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		537A8CB01B5C39EE00262F59 /* orange-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orange-o.png"; path = "../../../Downloads/orange-o.png"; sourceTree = "<group>"; };
 		53A3488E1B54C4CF0089DE4B /* Beacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A348921B54C4CF0089DE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53A348931B54C4CF0089DE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		53A348901B54C4CF0089DE4B /* Beacon */ = {
 			isa = PBXGroup;
 			children = (
-				537A8CB01B5C39EE00262F59 /* orange-o.png */,
+				533245781D80B76F003E83E6 /* orange-o.png */,
 				53A348931B54C4CF0089DE4B /* AppDelegate.swift */,
 				53A3489A1B54C4CF0089DE4B /* Images.xcassets */,
 				53A348911B54C4CF0089DE4B /* Supporting Files */,
@@ -184,6 +184,7 @@
 		53A348861B54C4CF0089DE4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Juliet Liu";
 				TargetAttributes = {
@@ -222,7 +223,7 @@
 			files = (
 				53A3489B1B54C4CF0089DE4B /* Images.xcassets in Resources */,
 				537520B91B54CBF6008EB03A /* MainViewController.xib in Resources */,
-				537A8CB11B5C39EE00262F59 /* orange-o.png in Resources */,
+				533245791D80B76F003E83E6 /* orange-o.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
